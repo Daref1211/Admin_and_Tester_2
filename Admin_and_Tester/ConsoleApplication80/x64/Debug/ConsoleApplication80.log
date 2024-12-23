@@ -1,0 +1,57 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ConsoleApplication80.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Admin.cpp
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7): error C2011: Menu: переопределение типа "class"
+  (компиляция исходного файла "Admin.cpp")
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Quiz.h(6,7): error C2011: Quiz: переопределение типа "class"
+  (компиляция исходного файла "Admin.cpp")
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Quiz.h(6,7):
+       см. объявление "Quiz"
+  
+  Admin_and_Tester.cpp
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7): error C2011: Menu: переопределение типа "class"
+  (компиляция исходного файла "Admin_and_Tester.cpp")
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Quiz.h(6,7): error C2011: Quiz: переопределение типа "class"
+  (компиляция исходного файла "Admin_and_Tester.cpp")
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Quiz.h(6,7):
+       см. объявление "Quiz"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Admin_and_Tester.cpp(10,10): error C2079: "menu" использует не имеющую определения структуру class "Menu"
+  Menu.cpp
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7): error C2011: Menu: переопределение типа "class"
+  (компиляция исходного файла "Menu.cpp")
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Quiz.h(6,7): error C2011: Quiz: переопределение типа "class"
+  (компиляция исходного файла "Menu.cpp")
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Quiz.h(6,7):
+       см. объявление "Quiz"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(8,7): error C2027: использование неопределенного типа "Menu"
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(8,7): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(10,1): warning C4508: {ctor}: функция должна возвращать значение; предполагается возвращаемый тип "void"
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(12,12): error C2027: использование неопределенного типа "Menu"
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(17,28): warning C4129: "_": нераспознанная escape-последовательность символов
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(26,12): error C2027: использование неопределенного типа "Menu"
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(42,12): error C2027: использование неопределенного типа "Menu"
+      D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.h(7,7):
+       см. объявление "Menu"
+  
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(46,10): error C2079: "menu" использует не имеющую определения структуру class "Menu"
+D:\C++\Admin_and_Tester\ConsoleApplication80\Menu.cpp(47,10): error C2079: "quiz" использует не имеющую определения структуру class "Quiz"
+  Создание кода...
